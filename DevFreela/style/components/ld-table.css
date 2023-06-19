@@ -3,21 +3,23 @@
     border-radius: 20px;
     background-color: white;
     padding-top: 28px;
+    padding-bottom: 5px;
 }
 
 /* HEAD */
 
 .ld-table >.head {
-    font-size: calc(var(--ld-font-size-base) + 8px);
+    font-size: calc(var(--ld-font-size-base) + 6px);
     font-weight: 600;
     color: var(--ld-color-gray-light);
 }
 
 .ld-table >.head >.row {
     display: grid;
-    grid-template-columns: 2fr 1fr 200px;
+    grid-template-columns: 2fr 1fr 100px;
     padding-left: 32px;
     padding-right: 32px;
+    align-items: center;
 }
 
 /* BODY */
@@ -29,8 +31,13 @@
 .ld-table >.body >.row {
     display: grid;
     padding: 24px 32px;
-    grid-template-columns: 2fr 1fr 200px;
+    align-items: center;
+    grid-template-columns: 2fr 1fr 100px;
     border-bottom: 1px solid var(--ld-color-gray-lighter);
+}
+
+.ld-table >.body >.row:first-child {
+    padding-top: 15px;
 }
 
 .ld-table >.body >.row:last-child {
@@ -59,20 +66,21 @@
     font-weight: 500;
 }
 
-/* BODY -  ACTIONS */
+/* BODY - ACTIONS */
 
 .ld-table >.body >.row >.actions {
-    
+
 }
 
 .ld-table >.body >.row >.actions >.edit {
     color: var(--ld-color-primary);
     margin-right: 5px;
     cursor: pointer;
+    font-size: 26px;
 }
 
 .ld-table >.body >.row >.actions >.delete {
     color: var(--ld-color-danger);
     cursor: pointer;
-
+    font-size: 26px;
 }

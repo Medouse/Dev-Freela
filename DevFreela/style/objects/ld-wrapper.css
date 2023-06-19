@@ -13,13 +13,12 @@
 .ld-wrapper >.main-content >.back-btn{
     position: fixed;
     top: calc(var(--ld-header-size) + 38px);
-    font-size: calc(var(--ld-font-size-base) + 40px);
+    font-size: calc(var(--ld-font-size-base) + 50px);
     cursor: pointer;
     color: var(--ld-color-gray-dark);
     text-decoration: none;
-
-
 }
+
 .ld-wrapper >.main-content.-one-col{
     grid-template-columns: 1fr;
 }
@@ -27,7 +26,7 @@
 .ld-wrapper >.main-content >.right{
     overflow: hidden;
     position: relative;
-    height: calc(100vh - var(--ld-header-size) );
+    height: calc(100vh - var(--ld-header-size));
 }
 
 .ld-wrapper >.main-content >.right >.image{

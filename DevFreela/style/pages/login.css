@@ -34,9 +34,8 @@
 
 .ld-login>.ld-wrapper>.main-content>.left>.steps {
     display: block;
-    font-weight: 700;
+    font-weight: 800;
     font-size: calc(var(--ld-font-size-base) + 4px);
     color: var(--ld-color-gray);
     margin-bottom: 13px;
-    font-family: 'Roboto', sans-serif;
 }
